@@ -14,189 +14,221 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@600;700&family=Mitr:wght@600&family=Open+Sans:wght@400;500;800&family=Oswald&family=Rubik+Lines&family=Titan+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Russo+One&family=Kanit:wght@600;700;800&family=Mitr:wght@600&family=Permanent+Marker&family=Open+Sans:wght@800&family=Roboto&family=Merriweather+Sans:wght@800&family=Salsa&family=Bebas+Neue&family=Oswald&display=swap" rel="stylesheet">
     
     <!-- Bootstrap Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!-- External CSS -->
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    
 </head>
 
-
 <body>
- <!-- Projects Start -->
-  <!-- Navbar, Info, and Banner Section Start -->
-    <section id="info">
-        <nav class="navbar navbar-expand-lg fixed-top mx-auto">
-            <!-- Navbar Contents Start -->
+    <!-- Projects Start -->
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg fixed-top mx-auto p-3">
+        <div class="container-fluid p-0">
             <a class="navbar-brand d-lg-none" href="/index.html">Hui Angeles</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle Navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbar">
+            <div class="collapse navbar-collapse sticky-top" id="navbar">
                 <ul class="navbar-nav mx-auto">
                     <a class="navbar-brand d-none d-lg-block" href="./index.html">Hui Angeles</a>
+
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#info">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#banner">
+                            <img src="./images/banner/navbar icons/home-logo.png" class="d-lg-none" alt="home-logo"> 
+                                <span class="ps-0">Home</span>
+                        </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#landing">About</a>
+                        <a class="nav-link" href="#landing">
+                            <img src="./images/banner/navbar icons/about-logo.png " class="d-lg-none" alt="about-logo"> 
+                                <span class="ps-0">About</span>
+                        </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#tools">Tech</a>
+                        <a class="nav-link" href="#tools">
+                            <img src="./images/banner/navbar icons/tech-logo.png" class="d-lg-none" alt="tech-logo"> 
+                                <span class="ps-0">Tech</span>
+                        </a>
                     </li>
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Get in touch</a>
+                        <a class="nav-link" href="#contact"> 
+                            <img src="./images/banner/navbar icons/contact-logo.png" class="d-lg-none pt-1" alt="contact-logo"> 
+                                <span class="ps-0">Get in touch</span>
+                        </a>
                     </li>
                 </ul>
             </div>
-            <!-- Navbar Contents End -->
-        </nav>
-        <!-- Info Page / Banner Start -->
-        <div class="banner">
-            <!-- <section id="banner_start"> -->
-                <!-- Banner Contents Start -->
-                <div class="bg-box">
-                    <div class="name mx-auto">Hui Angeles</div>
-                    <div class="dash mx-auto">&nbsp</div>
-                    <div class="typewriter">Full Stack Web Developer</div>
-                </div>
-                <!-- Banner Contents End -->
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
-                <!-- Info Text Start -->
-                <div class="text">
-                    <span>"Be</span>
-                    <span>The</span> 
-                    <span>Designer</span>
-                    <span>Of</span>
-                    <span>Your</span>
-                    <span>World</span>
-                    <span>And</span>
-                    <span>Not</span>
-                    <span>Merely</span>
-                    <span>A</span>
-                    <span>Consumer</span>
-                    <span>Of</span>
-                    <span>It"</span>
+    <!-- Banner Contents Start -->
+    <div class="container-fluid" id="banner">
+        <div class="row justify-content-center">
+            <!-- Banner Box Start -->
+            <div class="contents col-md-6 d-flex flex-column align-items-center justify-content-center text-white">
+                <div class="deconstructed text-center">
+                    Hui Angeles
+                    <div>Hui Angeles</div>
+                    <div>Hui Angeles</div>
+                    <div>Hui Angeles</div>
+                    <div>Hui Angeles</div>
                 </div>
-            <!-- Info Text End -->
-            
-            <!-- Social Logo Start -->
-            <ul class="soc_logo">
-                <li>
-                    <a href="https://www.facebook.com/hui.angeles02" target="_blank">
-                        <img src="./images/landing/logo/fblogo.png" class="img-fluid" alt="fblogo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/_anyweiii/" target="_blank">
-                        <img src="./images/landing/logo/iglogo.png" class="img-fluid" alt="iglogo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/hui-angeles-4b35921b1/" target="_blank">
-                        <img src="./images/landing/logo/linkedinlogo.png" class="img-fluid" alt="linkedinlogo">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://github.com/anyweiii" target="_blank">
-                        <img src="./images/landing/logo/githublogo.png" class="img-fluid" alt="gitlogo">
-                    </a>
-                </li>
-            </ul>
-            <!-- Social Logo End -->
 
-            <!-- Scroll Icon Start -->
+                <p class="typewriter">Full Stack Web Developer</p>
+            </div>
+            <!-- Banner Box End -->
+
+            <!-- Banner Tagline Start -->
+            <h1 class="tagline-header">
+                <span>"Be the designer of your world and not merely a consumer of it."</span>
+            </h1>
+            <!-- Banner Tagline End -->
+
+            <!-- Banner Social Logo Start -->
+            <div class="banner-socials">
+                <ul class="col-md-6 p-0">
+                    <li>
+                        <a href="https://www.facebook.com/hui.angeles02" target="_blank">
+                            <img class="fb-logo img-fluid" src="./images/banner/logo/fblogo.png" alt="fblogo">
+                        </a>
+                        <a href="https://www.instagram.com/_anyweiii/" target="_blank">
+                            <img class="ig-logo img-fluid" src="./images/banner/logo/iglogo.png" alt="iglogo">
+                        </a>
+                        <a href="https://www.linkedin.com/in/hui-angeles/" target="_blank">
+                            <img class="linked-logo img-fluid" src="./images/banner/logo/linkedinlogo.png" alt="linkedinlogo">
+                        </a>
+                        <a href="https://github.com/anyweiii" target="_blank">
+                            <img class="git-logo img-fluid" src="./images/banner/logo/githublogo.png" alt="githublogo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Banner Social Logo End -->
+
+            <!-- Banner Scroll Down Start -->
             <a class="scroll_btn" href="#landing">
                 <img src="./images/landing/jumpdown.png" class="scroll_down" alt="scroll_down">
             </a>
-                <!-- Scroll Icon End -->
-            <!-- </section> -->
+            <!-- Banner Scroll Down End -->
         </div>
-        <!-- Info Page / Banner End -->
-    </section>
+    </div>
+    <!-- Banner Contents End -->
 
-   <!-- Landing Page Start -->
-  <section id="landing">
-        <div class="landing_wrap text-center justify-content-center">
-          <div class="container">
-                <div class="row m-0 flex-column-reverse flex-md-row">
-                    <!-- Landing Contents Start -->
-                    <div class="l_contents col-12 col-md-12 order-md-2 order-1 mx-auto">
-                        <h1 class="h_content">About Me</h1>
-                        <h2>-Hello World!</h2>
-                        <p>My name is Hui, I am a former Application Developer Analyst and currently a  Web Developer from the Philippines. A technology enthusiast with an unwavering commitment to excellence. My experience in both field will help you turn your ideas into reality. Together, let’s seize the boundless possibilities of software development and succeed in the digital world.</p>
+    <!-- Landing Start -->
+    <section id="landing">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="landing-img col-md-6">
+                    <div class="animation d-sm-block d-md-block d-xl-none mx-auto mb-4"> 
+                        <div class="first mx-auto"><div>About Me</div></div>
+                        <div class="second mx-auto"><div>Full Stack Web Developer</div></div>
+                        <div class="third mx-auto"><div>Application Developer Analyst</div></div>
+                    </div>
 
-                        <div class="e_links">
-                            <a class="download" target="_blank" href="https://drive.google.com/file/d/18ppfTwFsBDuOSmA5RZbXIlK1it5HaDuw/view?usp=sharing">Download Resum&#201;</a>
-                            <a class="hire" target="_blank" href="mailto:angeles.hui02@gmail.com">Hire Now</a>
+                    <img src="./images/aboutme/me_img.jpg" class="me-img img-fluid" alt="my-img">
+                </div>
+
+                <div class="landing-contents col-md-6">
+                    <div class="landing-body">
+                        <h1>Hello World! 👋</h1>
+
+                        <div class="animation d-none d-xl-block"> 
+                            <div class="first">
+                                <div>About Me</div>
+                            </div>
+
+                            <div class="second">
+                                <div>Full Stack Web Developer</div>
+                            </div>
+
+                            <div class="third">
+                                <div>Application Developer Analyst</div>
+                            </div>
                         </div>
                     </div>
+                    
+                    <p>
+                        My name is Hui, I am a former Application Developer Analyst and currently a  Web Developer from the Philippines. A technology enthusiast with an unwavering commitment to excellence. My experience in both field will help you turn your ideas into reality. Together, let’s seize the boundless possibilities of software development and succeed in the digital world.
+                    </p>
 
-                  <!-- Landing Contents End -->
+                    <div class="landing-buttons d-flex justify-content-start">
+                        <a class="landing-download" target="_blank" href="https://drive.google.com/file/d/1pmYoIx6ttOfM1sAAs8uvDY9zbAnfH0c5/view?usp=sharing">
+                            Download R&#201sum&#201;
+                        </a>
 
-                  <!-- Image Start -->
-                    <div class="landing_img col-12 col-md-12 order-md-1 order-2 mx-auto" >
-                        <img src="./images/aboutme/me_img.jpg" class="me_img img-fluid overflow-hidden" alt="your_image">
+                        <a class="landing-hire" target="_blank" href="mailto:huifranciscoangeles@gmail.com">
+                            Hire Now
+                        </a>
                     </div>
-                    <!-- Image End-->
                 </div>
             </div>
         </div>
     </section>
-  <!-- Landing Page End -->
+    <!-- Landing End -->
 
     <!-- Projects / Exp Start -->
     <section id="projects">
-        <div class="project_box container-fluid">
+        <div class="project_box container-fluid py-5">
             <!-- Work Experience Background Start -->
             <h1 class="prof_title mx-auto px-4">Professional Experience</h1>
             
             <div class="row">
                 <div class="col-12 p-0">
+                    <!-- Work Background Start -->
                     <div class="work_bg">
 
-                        <ul class="work_exp m-0 ps-3">
+                        <ul class="work_exp m-0 ps-2">
                             <h1 class="text-center">Application Developer Analyst</h1>
                             <li>
                                 <img src="./images/projects/prof_exp icon/g_building_icon.png" alt="building_icon">
-                                <span>Accenture Inc.</span>
+                                <span class="ps-1">Accenture Inc.</span>
                             </li>
                             <li>
                                 <img src="./images/projects/prof_exp icon/g_calendar_icon.png" alt="calendar_icon">
-                                <span>June 2021 - April 2023</span>
+                                <span class="ps-1">June 2021 - April 2023</span>
                             </li>
                             <li>
                                 <img src="./images/projects/prof_exp icon/g_tasks_icon.png" alt="tasks_icon">
-                                <span>Providing inputs to the lead developers for the functional specification of the system and supports the testing phase which will be deployed in production to ensure the quality of the program and minimization of bugs.</span>
+                                <span>Validates the quality of the developed program through comprehensive testing, with a commitment to minimizing the bugs and ensures systems optimal functionality. </span>
                             </li>
                         </ul>
 
                     </div>
+                    <!-- Work Background End -->
 
+                    <!-- Internship Start -->
                     <div class="intern_bg mb-4">
 
-                        <ul class="intern_exp ps-3">
+                        <ul class="intern_exp ps-2">
                             <h1 class="text-center">Internship</h1>
                             <li>
                                 <img src="./images/projects/prof_exp icon/b_building_icon.png" alt="building_icon">
-                                <span>PAG-ASA DOST</span>
+                                <span class="ps-1">PAG-ASA DOST</span>
                             </li>
                             <li>
                                 <img src="./images/projects/prof_exp icon/b_calendar_icon.png" alt="calendar_icon">
-                                <span>April 2019 - May 2019</span>
+                                <span class="ps-1">April 2019 - May 2019</span>
                             </li>
                             <li>
                                 <img src="./images/projects/prof_exp icon/b_tasks_icon.png" alt="tasks_icon">
-                                <span>Provided technical support and maintenance for the electronic component, equipment, devices and networks in the field of electronics which also includes ICT.</span>
+                                <span class="ps-1">Provided technical support and maintenance for the electronic component, equipment, devices and networks in the field of electronics which also includes ICT.</span>
                             </li>
                         </ul>
 
                     </div>
+                    <!-- Internship End -->
                 </div>
             </div>
             <!-- Work Experience Background End -->
@@ -206,41 +238,45 @@
 
             <div class="row">
                 <div class="col-12 p-0">
+                    <!-- Zuitt Bootcamp Start -->
                     <div class="bc_exp">
 
-                        <ul class="zuitt_bc m-0 ps-3">
+                        <ul class="zuitt_bc m-0 ps-2">
                             <h1 class="text-center">Zuitt Coding Bootcamp</h1>
                             <h5 class="text-center">Full Stack Web Development</h2>
 
                             <li>
                                 <img src="./images/projects/prof_exp icon/g_calendar_icon.png" alt="calendar_icon">
-                                <span>December 2023 - February 2024</span>
+                                <span class="ps-1">December 2023 - February 2024</span>
                             </li>
                             <li>
                                 <img src="./images/projects/prof_exp icon/g_tasks_icon.png" alt="tasks_icon">
-                                <span>An intensive online bootcamp that covers key concepts on full-stack web development, including Responsive Web Design, Rapid Prototyping and Product Deployments.</span>
+                                <span class="ps-1">An intensive online bootcamp that covers key concepts on full-stack web development, including Responsive Web Design, Rapid Prototyping and Product Deployments.</span>
                             </li>
                         </ul>
 
                     </div>
+                    <!-- Zuitt Bootcamp End -->
 
+                    <!-- University Start -->
                     <div class="educ_bg mb-4">
 
-                        <ul class="ue_bg mb-4 ps-3">
+                        <ul class="ue_bg mb-4 ps-2">
                             <h1 class="text-center">University of the East</h1>
                             <h5 class="text-center">B.S Electronics Engineering</h2>
                                 
                             <li>
                                 <img src="./images/projects/prof_exp icon/b_calendar_icon.png" alt="calendar_icon">
-                                <span>June 2015 - March 2020</span>
+                                <span class="ps-1">June 2015 - March 2020</span>
                             </li>
                             <li>
                                 <img src="./images/projects/prof_exp icon/b_tasks_icon.png" alt="tasks_icon">
-                                <span>Before I became an Application Developer Analyst and a Full Stack Web Developer, I have a bachelors degree as an electronics engineer and a licensed Electronics Technician. I also have an extensive background on embedded systems (troubleshooting, coding and designing), electric circuit analysis and design, matlab and autocad.</span>
+                                <span class="ps-1">Before I became an Application Developer Analyst and a Full Stack Web Developer, I have a bachelors degree as an electronics engineer and a licensed Electronics Technician. I also have an extensive background on embedded systems (troubleshooting, coding and designing), electric circuit analysis and design, matlab and autocad.</span>
                             </li>
                         </ul>
 
                     </div>
+                    <!-- University End -->
                 </div>
             </div>
             <!-- Education Background End -->
@@ -254,7 +290,7 @@
                     <div class="works_col1 col-lg-6 col-md-12 ps-5">
                         <!-- Cards Content Start -->
                         <a href="#" class="list-item d-flex" data-toggle="modal" data-target="#modal01">
-                            <img src="./images/projects/works/works_img/game_develop.jpeg" class="img-fluid" alt="item_1">
+                            <img src="./images/projects/works/works_img/game_develop.png" class="img-fluid" alt="item_1">
                             <div>
                                 <h5>2048 Game Development</h5>
                                 <h4>Zuitt Game Development Workshop</h4>
@@ -262,7 +298,7 @@
                         </a>
 
                         <a href="#" class="list-item d-flex" data-toggle="modal" data-target="#modal02">
-                            <img src="./images/projects/works/works_img/web_develop.jpg" alt="item_2">
+                            <img src="./images/projects/works/works_img/web_develop.png" alt="item_2">
                             <div>
                                 <h5>Simple Developer Portfolio</h5>
                                 <h4>Zuitt Web Development Workshop</h4>
@@ -299,6 +335,7 @@
 
                         <a href="#" class="list-item d-flex" data-toggle="modal" data-target="#modal06">
                             <img src="./images/projects/works/works_img/sample04.png" alt="sample04">
+                            
                             <div>
                                 <h5>AppleCare Products</h5>
                                 <h4>Apple</h4>
@@ -468,166 +505,248 @@
     </div>
     <!-- Modal 6 End -->
     <!-- Modal for Cards End -->
-    
+
     <!-- Tools / Tech Section Start -->
     <section id="tools">
-        <!-- Main Tools Start -->
-        <h3 class="text-center mx-auto py-3 px-3">Tech Stack and Developer Tools</h3>
+        <h3 class="mx-auto py-3 px-3">Tech Stack and Developer Tools</h3>
+            <div id="main-tools" class="d-flex flex-lg-column flex-md-row justify-content-center">
+                <!-- Tools Logo Start -->
+                <div id="tools-1" class="d-flex flex-lg-row flex-md-column justify-content-center">
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" class="html_img img-fluid"/>
+                        <div class="text-overlay">HTML5</div>
+                    </div>
 
-        <div id="main-tools" class="d-flex flex-md-column justify-content-center align-items-start align-items-md-center">
-            <!-- Tools Logo Start -->
-            <div id="tools-1" class="d-flex flex-column flex-md-row justify-content-start">
-                <img src="./images/tech/tech logo/html_logo.png" class="html_img img-fluid"/>
-                <img src="./images/tech/tech logo/css_logo.png" class="css_img img-fluid" class="img-fluid"/>
-                <img src="./images/tech/tech logo/javascript_logo.png" class="java_img img-fluid"/>
-                <img src="./images/tech/tech logo/python_logo.png" class="python_img img-fluid"/>
-                <img src="./images/tech/tech logo/nodejs_logo.png" class="nodejs_img img-fluid"/>
-            </div>
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" class="css_img img-fluid"/>
+                        <div class="text-overlay">CSS3</div>
+                    </div>
 
-            <div id="tools-2" class="d-flex flex-column flex-md-row justify-content-start">
-                <img src="./images/tech/tech logo/react_logo.png" class="react_img img-fluid"/>
-                <img src="./images/tech/tech logo/mongodb_logo.png" class="mongo_img img-fluid"/>
-                <img src="./images/tech/tech logo/bootstrap_logo.png" class="boot_img img-fluid"class="img-fluid"/>
-                <img src="./images/tech/tech logo/mysql_logo.png" class="sql_img img-fluid"/>
-                <img src="./images/tech/tech logo/git_logo.png" class="git_img img-fluid"/>
-            </div>
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" class="java_img img-fluid"/>
+                        <div class="text-overlay">JavaScript</div>
+                    </div>
 
-            <div id="tools-3" class="d-flex flex-column flex-md-row justify-content-start">
-                <img src="./images/tech/tech logo/sublime_logo.png" class="sub_img img-fluid"/>
-                <img src="./images/tech/tech logo/vscode_logo.png" class="vs_img img-fluid"/>
-                <img src="./images/tech/tech logo/figma_logo.png" class="figma_img img-fluid"class="img-fluid"/>
-                <img src="./images/tech/tech logo/ps_logo.png" class="ps_img img-fluid"/>
-                <img src="./images/tech/tech logo/jira_logo.png" class="jira_img img-fluid"/>
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" class="mongo_img img-fluid"/>
+                        <div class="text-overlay">MongoDB</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" class="express_img img-fluid"/>
+                        <div class="text-overlay">ExpressJS</div>
+                    </div>
+                </div>
+    
+                <div id="tools-2" class="d-flex flex-lg-row flex-md-column justify-content-center">
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" class="react_img img-fluid"/>
+                        <div class="text-overlay">ReactJS</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" class="nodejs_img img-fluid"/>
+                        <div class="text-overlay">NodeJS</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" class="boot_img img-fluid"/>
+                        <div class="text-overlay">Bootstrap</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" class="python_img img-fluid"/>
+                        <div class="text-overlay">Python</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" class="sql_img img-fluid"/>
+                        <div class="text-overlay">MySQL</div>
+                    </div>
+                </div>
+    
+                <div id="tools-3" class="d-flex flex-lg-row flex-md-column justify-content-center">
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" class="git_img img-fluid"/>
+                        <div class="text-overlay">Git</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" class="vs_img img-fluid"/>
+                        <div class="text-overlay">VSCode</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" class="jira_img img-fluid"/>
+                        <div class="text-overlay">Jira</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" class="figma_img img-fluid"/>
+                        <div class="text-overlay">Figma</div>
+                    </div>
+
+                    <div class="image-container">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" class="ps_img img-fluid"/>
+                        <div class="text-overlay">Photoshop</div>
+                    </div>
+
+                </div>
+                <!-- Tools Logo End -->
             </div>
-            <!-- Tools Logo End -->
+                <!-- Main Tools End -->
         </div>
-        <!-- Main Tools End -->
-
+        <!-- Main Tools Start -->
+        
         <!-- Additional Tools Start -->
-        <h3 class="add_head text-center mx-auto py-3 px-3">Other Tools</h3>
+        <h3 class="add_head text-center mx-auto py-3 px-3 mt-1 mb-2">Other Tools</h3>
 
         <div id="other-tools" class="d-flex flex-column align-items-center">
             <!-- Other Tools Logo Start -->
-            <div id="add_tools" class="d-flex flex-column flex-md-row justify-content-start">
-                <img src="./images/tech/tech logo/sap_logo.png" class="sap_img img-fluid" />
-            </div>
+            <div id="add_tools" class="d-flex flex-lg-row flex-md-column justify-content-start">
+                <div class="image-container">
+                    <img src="./images/tech/tech logo/sap_logo.png" class="sap_img img-fluid" />
+                    <div class="text-overlay-sap">SAP</div>
+                </div>
 
-            <div id="add_tools" class="d-flex justify-content-center pt-4">
-                <img src="./images/tech/tech logo/c++_logo.png" class="cp_img img-fluid"/>
-                <img src="./images/tech/tech logo/c_logo.png" class="c_img img-fluid" />
+                <div class="image-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-plain.svg" class="cplus_img img-fluid"/>
+                    <div class="text-overlay-c">C++</div>
+                </div>
+
+                <div class="image-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" class="matlab_img img-fluid"/>
+                    <div class="text-overlay-matlab">Matlab</div>
+                </div>
             </div>
             <!-- Other Tools Logo End -->
         </div>
          <!-- Additional Tools End -->
     </section>
     <!-- Tools / Tech Section End -->
-
-    <!-- Contact / Form Start -->
+    
+    <!-- Contact Form Start -->
     <section id="contact">
-        <!-- Contact Intro Start -->
-        <div class="title_cont container-fluid p-3">
-            <h3 class="cont_h p-2">Get in touch</h3>
-            <p class="cont_p p-1">For any inquiries and collaboration proposals, you may reach me at my socials. I would love to hear from you.</p>
-        </div>
-        <!-- Contact Intro End -->
-
-        <!-- Form Contents Start -->
-        <h3 class="cont_h2 p-2 mx-auto">Say Hello</h3>
-
-        <div class="cont_form col-12 col-md-8 col-lg-6 col-xl-4 mx-auto border rounded">
-            <form id="form-col">
-
-                <div class="p-2">
-                    <label for="name" class="form-label text-light fw-bold">Full Name:</label>
-                    <input type="text" class="form-control" id="name" name="name">
-                </div>
-
-                <div class="p-2">
-                    <label for="email_address" class="form-label text-light fw-bold">Email Address:</label>
-                    <input type="email" class="form-control" id="email_address" name="email_address">
-                </div>
-
-                <div class="p-2">
-                    <label for="text_area" class="form-label text-light fw-bold">Message:</label>
-                    <textarea class="form-control" id="text_area" rows="3"></textarea>
+        <div class="container-fluid d-flex flex-lg-row flex-md-column">
+            <!-- Contact Intro Start -->
+            <div class="personal-details pe-5">
+                <div class="getintouch">
+                    <h3 class="p-2">Get in touch</h3>
+                    <p class="mb-2 mt-2">For any inquiries and collaboration proposals, you may reach me at my socials. I would love to hear from you.</p>
                 </div>
                 
-                <div class="p-1 mb-2 text-center">
-                    <button type="button" class="btn btn-dark border border-light fw-bold" data-bs-toggle="modal" data-bs-target="#modalDiv">Send Email</button>
+                <div class="contact-details d-lg-block">
+                    <h3 class="p-2 mb-2">Reach me at</h3>
+                    
+                    <div class="d-flex flex-column mb-2">
+                        <a href="mailto:huifranciscoangeles@gmail.com">huifranciscoangeles@gmail.com</a>
+                        <a href="tel:+63-995-897-8704">+63-995-897-8704</a>
+                    </div>
                 </div>
 
-            </form>
-        </div>
-        <!-- Form Contents Start -->
-        
-        <!-- Social Info Start -->
-        <h3 class="cont_h3 mx-auto py-2 px-4">Socials</h3>
-
-        <div class="socials">
-            <ul class="col-12 col-lg-12 p-0 m-0 container-fluid">
-                <li class="text-center">
-                    <!-- Logo Start -->
-                    <a href="https://www.facebook.com/hui.angeles02" target="_blank">
-                        <img class="img-fluid" src="./images/contactme/socials/fblogo.png" alt="fblogo">
-                    </a>
-
-                    <a href="https://www.instagram.com/_anyweiii/" target="_blank">
-                        <img class="img-fluid" src="./images/contactme/socials/iglogo.png" alt="iglogo">
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/hui-angeles-4b35921b1/" target="_blank">
-                        <img class="img-fluid" src="./images/contactme/socials/linkedinlogo.png" alt="linkedinlogo">
-                    </a>
-
-                    <a href="https://github.com/anyweiii" target="_blank">
-                        <img class="img-fluid" src="./images/contactme/socials/githublogo.png" alt="githublogo">
-                    </a>
-                    <!-- Logo End -->
-                </li>
-            </ul>
-        </div>
-        <!-- Social Info End -->
-
-        <!-- Footer Start -->
-        <footer class="d-flex justify-content-center d-grid gap-1 pt-5">
-            <div>Hui Angeles</div>
-            <div>|</div>
-            <div>Full Stack Web Developer</div>
-            <div>|</div>
-            <div>2023. All rights reserved</div>
-        </footer>
-        <!-- Footer End -->
-    </section>
-    <!-- Contact / Form End -->
-
-    <!-- Modal for Form Start -->
-    <div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
-        <div class="modal-dialog" role ="document">
-            <!-- Form Modal Start -->
-            <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="modalTitle">Your message has been sent!</h1>
-                </div>
-
-                <div class="modal-body text-center">
-                  Thank you for your message. Rest assured that I will be in touch once I've read your message! 
-                </div>
-
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <div class="socials d-lg-block">
+                    <h3 class="p-2">Socials</h3>
+                    
+                    <ul class="p-0">
+                        <li class="pt-1">
+                            <a href="https://www.facebook.com/hui.angeles02" target="_blank">
+                                <img class="img-fluid" src="./images/contactme/socials/fblogo.png" alt="fblogo">
+                            </a>
+                            <a href="https://www.instagram.com/_anyweiii/" target="_blank">
+                                <img class="img-fluid" src="./images/contactme/socials/iglogo.png" alt="iglogo">
+                            </a>
+                            <a href="https://www.linkedin.com/in/hui-angeles/" target="_blank">
+                                <img class="img-fluid" src="./images/contactme/socials/linkedinlogo.png" alt="linkedinlogo">
+                            </a>
+                            <a href="https://github.com/anyweiii" target="_blank">
+                                <img class="img-fluid" src="./images/contactme/socials/githublogo.png" alt="githublogo">
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <!-- Form Modal End -->
-        </div>
-    </div>
-    <!-- Modal for Form End -->
+            <!-- Contact Intro End -->
 
-    <!-- Bootstrap Script -->
+            <!-- Form Contents Start -->
+            <div class="messageme">
+                <form action="">
+                    <h3 class="p-2 mb-4 mx-auto">Say Hello</h3>
+
+                    <div class="mb-3">
+                        <label for="inputname" class="form-label text-light fw-bold">Full name:</label>
+                        <input type="text" class="form-control" id="inputname">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="inputmail" class="form-label text-light fw-bold">Email address:</label>
+                        <input type="email" class="form-control" id="inputmail" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text text-secondary">We'll never share your email with anyone else.</div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="text_area" class="form-label text-light fw-bold">Message:</label>
+                        <textarea class="form-control" id="text_area" rows="3" required></textarea>
+                    </div>
+
+                    <button type="button" class="btn btn-dark border border-light fw-bold" onclick="submitForm()">Submit</button>
+                </form>
+            </div>
+            <!-- Form Contents End -->
+
+           <div class="d-flex flex-column">
+                <div class="contact-details2 d-flex d-lg-none flex-column align-items-center pt-4">
+                    <h3 class="p-2 mb-2">Reach me at</h3>
+                    
+                    <div class="d-flex flex-column mb-2 align-items-center">
+                        <a href="mailto:huifranciscoangeles@gmail.com">huifranciscoangeles@gmail.com</a>
+                        <a href="tel:+63-995-897-8704">+63-995-897-8704</a>
+                    </div>
+                </div>
+
+                <div class="socials2 d-flex d-lg-none flex-column align-items-center pt-3">
+                    <h3 class="p-2">Socials</h3>
+                    
+                    <ul class="p-0">
+                        <li class="pt-1">
+                            <a href="https://www.facebook.com/hui.angeles02" target="_blank">
+                                <img class="img-fluid" src="./images/contactme/socials/fblogo.png" alt="fblogo">
+                            </a>
+                            <a href="https://www.instagram.com/_anyweiii/" target="_blank">
+                                <img class="img-fluid" src="./images/contactme/socials/iglogo.png" alt="iglogo">
+                            </a>
+                            <a href="https://www.linkedin.com/in/hui-angeles/" target="_blank">
+                                <img class="img-fluid" src="./images/contactme/socials/linkedinlogo.png" alt="linkedinlogo">
+                            </a>
+                            <a href="https://github.com/anyweiii" target="_blank">
+                                <img class="img-fluid" src="./images/contactme/socials/githublogo.png" alt="githublogo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+           </div>            
+        </div>
+    </section>
+    <!-- Contact Form End -->
+
+    <!-- Footer Start -->
+    <footer class="d-flex justify-content-center text-center d-grid gap-2 p-1">
+        <div>Hui Angeles</div>
+        <div>|</div>
+        <div>Full Stack Web Developer</div>
+        <div>|</div>
+        <div>&#169;2023. All rights reserved</div>
+    </footer>
+    <!-- Footer End -->
+
+    
+    <!-- Bootstrap Script / Scripts Start -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- Bootstrap Script End -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./index.js"></script>
+    <!-- Bootstrap Script / Scripts End -->
 </body>
 </html>
