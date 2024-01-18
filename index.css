@@ -1464,8 +1464,13 @@ form {
   #contact > div {
     flex-direction: column;
   }
+  
   .messageme h3 {
     font-size: 25px !important;
+  }
+
+  .getintouch p {
+    font-size: 22px !important;
   }
 
   .personal-details {
